@@ -1,0 +1,27 @@
+{
+  "name": "gdrive-to-github",
+  "version": "1.0.0",
+  "description": "Relay Google Drive change events to GitHub for pipeline processing",
+  "main": "Code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jdcasey/sos-497.git"
+  },
+  "keywords": [
+    "google",
+    "drive",
+    "gh-actions"
+  ],
+  "author": "John Casey <jdcasey@commonjava.org> (http://johnofalltrades.name/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jdcasey/sos-497/issues"
+  },
+  "homepage": "https://github.com/jdcasey/sos-497#readme",
+  "dependencies": {
+    "@types/google-apps-script": "^1.0.45"
+  }
+}
