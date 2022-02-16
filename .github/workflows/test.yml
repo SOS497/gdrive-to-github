@@ -28,4 +28,4 @@ jobs:
         env:
           JSON: ${{ secrets.SOME_JSON }}
         run: |
-          echo ${JSON} | grep "foo" || echo "Not found"
+          echo ${JSON} | jq ".foo"
